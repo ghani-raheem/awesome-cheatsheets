@@ -111,3 +111,4 @@ START TRANSACTION;                                             # Begin a new tra
 COMMIT;                                                        # Save all changes made during the transaction
 ROLLBACK;                                                      # Undo all changes if an error occurs before commit
 SET AUTOCOMMIT = 0;                                            # Disable automatic commits for the current session
+SET AUTOCOMMIT = 1;                                            # Re-enable automatic commits after finishing manual transactions
